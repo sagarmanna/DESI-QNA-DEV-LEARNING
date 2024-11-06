@@ -1,0 +1,65 @@
+<!-- /Scope in js  -->
+
+<!-- scope is 2 types 
+ 
+1. Global 
+2. Local ( Local scope is two types 1. Block 2. Function , 3. MODULE )
+
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scope</title>
+</head>
+<body>
+    
+
+    <script>
+        let age =14;
+        // you have decide the person can vote or not 
+        if(age<18){
+
+           // let c =12;
+            console.log("age is too late less to vote  ");
+
+           
+        }
+ else if (age<12){
+    console.log("you cannot vote");
+
+ }else{
+    console.log("you can vote");
+ }
+ //console.log(c);
+
+ let cups=41;
+
+ switch(cups ){
+case 10: 
+console.log("value of the cups is 4");
+break;
+case 41: 
+console.log("the value of cups is 41");
+break;
+case 42:
+    console.log("the value of cups is 42");
+default:
+    console.log("unable to find number of cups ");
+    break;
+
+ }
+        // this is scope ... there is define 
+//         {
+
+            
+// let b = 20; // this b value not acess outside this scope 
+
+//         }
+
+    </script>
+</body>
+</html>
