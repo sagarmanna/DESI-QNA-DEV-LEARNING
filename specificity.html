@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>specificity</title>
+    <style>
+        ul#cool-drinks li.classname1{
+            color: red;
+            font-weight: bold;
+
+        }
+        ul#cool-drinks li{
+            font: size 14px; 
+            color: blue;
+            font-weight: normal;
+
+        }
+        /* .classname1{
+            color: red;
+
+        }
+        .classname1{
+            color: blue;
+        } */
+    </style>
+</head>
+<body>
+  <ul id="cool-drinks">
+    <li>Sprite</li>
+    <li class="classname1">List2</li>
+    <li>List 3</li>
+  </ul>  
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
