@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scope</title>
+</head>
+<body>
+    
+    <script>
+        let age =14;
+        //let c = 12;
+        if(age<18){
+            console.log("you cannot vote");
+
+        }else if(age<12){
+           
+            console.log("age is too late");
+        }
+        else{
+            console.log("you can vote");
+        }
+        //console.log(c);
+
+        let cups= 2;
+        switch(cups){
+            case 4:
+            console.log("value of the cups is 4 ");
+            break;
+            case 41:
+                console.log("the value of cups is 41");
+                case 42: 
+                console.log("the value of cups is 42");
+                break;
+
+                default:
+                    console.log("not valid ");
+                    break;
+        }
+
+
+    </script>
+
+</body>
+</html>
