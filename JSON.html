@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON</title>
+</head>
+<body>
+    
+
+<!-- JSON : Javascript Object Notetion  -->
+<!-- Data Representation , Syntax -->
+
+<script>
+let jsonObj={
+    name: "Sagar",
+    company: "ITJOBXS",
+    location: "INDIA",
+
+
+}
+
+console.log(jsonObj);
+
+
+let jsonStr=JSON.stringify(jsonObj);
+console.log(jsonStr);
+
+jsonStr=jsonStr.replace("INDIA","KSA")
+console.log(jsonStr);
+
+newJson=JSON.parse(jsonStr);
+console.log(newJson);
+
+
+</script>
+
+
+
+
+
+</body>
+</html>
